@@ -37,17 +37,29 @@ header {
     display: flex;
     align-items: center; }
 
+header .profile {
+    padding-right: 10px;
+    padding-top: 15px;}
+
+header .profile img {
+    border-radius: 50%;
+    height: 80px;}
+
 header .blog-name {
-    width: 35%;
+    width: 50%;
     display: inline-block;
     text-align: left;
-    font-size: 18px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+    /*font-family: "Lucida Console", Monaco, monospace;*/
     padding-top: 10px;}
 
 header .blog-name a {
-    color: #a6a2a0;
+    color: black;
     text-decoration: none; }
+
+header .blog-name .blog-subname {
+    color: #a6a2a0;
+    font-size: 18px;}
 
 header li a:hover {
     color: black;
@@ -73,7 +85,7 @@ header li a:hover {
 /* wide display: enforce maximum width of header to match content */
 @media (min-width: 940px) {
     header {
-        width: 705px;
+        width: 850px;
         margin-left: auto;
         margin-right: auto; }
     }
