@@ -51,7 +51,7 @@ html {
     color: #a6a2a0;
     text-align: center;
     margin-top: 6em;
-    border-top: 1px solid lightgrey;
+    /*border-top: 1px solid lightgrey;*/
     padding-top: 2em;
     margin-bottom: 4em; }
 
@@ -241,6 +241,37 @@ code {
 .hljs-metas { color: red; }
 
 .hljs-metap { color: rgb(51, 131, 231); }
+
+/* ==================================================================
+    ARTICLE BLURBS
+================================================================== */
+
+.article-blurb {
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.article-blurb .notlast {
+    border-bottom: 1px solid lightgrey;
+}
+
+.article-blurb h3 {
+    margin-block-end: 0;
+}
+
+.article-blurb h3 a:hover {
+    text-decoration: underline;
+    color: #004de6;
+}
+
+.article-blurb .date {
+    color: #a6a2a0;
+    text-decoration: italic;
+}
+
+.article-blurb .desc {
+    padding-left: 20px;
+}
 
 /* ==================================================================
     BOXES

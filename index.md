@@ -4,4 +4,4 @@ Welcome! The navbar above ☝️ will help you get around until this landing pag
 
 # Recent Articles
 
-_in progress_
+{{recentarticles}}
