@@ -15,7 +15,11 @@
 
 ## Workshop Publications
 
-**K. Daruwalla**, H. Zhuo, M. Lipasti, *BitSAD: A Domain-Specific Language for Bitstream Computing*, First ISCA Workshop on Unary Computing, June 2019.
+**K. Daruwalla**, H. Zhuo, M. Lipasti, *BitSAD: A Domain-Specific Language for Bitstream Computing*, First ISCA Workshop on Unary Computing, June 2019.\\
+[[pdf]](/assets/publications/BitSADv1.pdf) [[slides]](/assets/publications/BitSADv1 - Slides.pdf)
+
+**K. Daruwalla**, M. Lipasti, *Resource Efficient Navigation Using Bitstream Computing*, First ISCA Workshop on Unary Computing, June 2019.\\
+[[pdf]](/assets/publications/BitstreamHomography.pdf)
 
 ## Oral Presentations
 
@@ -23,9 +27,9 @@
 High-performance Embedded Architecture and Compilation Conference, Bologna, Italy. Jan. 2020.\\
 [[slides]](/assets/publications/BitSADv2 - Slides.pdf)
 
-*BitSAD: A Domain-Specific Language for Bitstream Computing*,\\
+*Resource Efficient Navigation Using Bitstream Computing*,\\
 First ISCA Workshop on Unary Computing, Phoenix, AZ. Jun. 2019.\\
-[[slides]](/assets/publications/BitSADv1 - Slides.pdf)
+[[slides]](/assets/publications/BitstreamHomography - Slides.pdf)
 
 *BitBench: A Benchmark for Bitstream Computing*,\\
 Languages, Compilers, and Tools for Embedded Systems, Phoenix, AZ. Jun. 2019.\\
