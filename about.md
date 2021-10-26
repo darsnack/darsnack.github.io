@@ -17,6 +17,11 @@ Getting the *important* stuff out of the way, below are some pictures of my dog,
 @@
 @@
 
-My research interests include neuromorphic computing, biological learning, and ultra-low power computing paradigms. I have experience with computer architecture, ML, RTL design, and IC layout. I also teach (as a TA) undergrad and grad courses on embedded systems, PCB layout, optimization, and linear algebra for ML. You can find my full CV [here](/assets/cv.pdf).
+My research interests include neuromorphic computing, biological learning, and ultra-low power computing paradigms. I have experience with computer architecture, ML, RTL design, and IC layout. I also teach (as a TA and instructor) undergrad and grad courses on computer engineering, embedded systems, PCB layout, optimization, and linear algebra for ML.
+You can find my full CV [here](/assets/cv.pdf).
 
-Away from engineering hall, George and I enjoy hiking, sailing, and playing guitar (Jorge plays the part of snoring).
+Service and shared governance is important to me. I have dedicate my energy and time to elevating graduate student voices on campus, particularly in my own department. I have served as president, vice-president, and PR officer for our department's graduate student association. I also serve on the Graduate School's Dean's Advisory Board, and I am a departmental steward for the [TAA](https://taa-madison.org). Email me if you want to discuss the importance of shared involvement in academia!
+
+I also contribute to the [Julia language](https://julialang.org) community. I'm a core maintainer for [Flux.jl](https://github.com/FluxML/Flux.jl), [Metalhead.jl](https://github.com/FluxML/Metalhead.jl), [ParameterSchedulers.jl](https://github.com/darsnack/ParameterSchedulers.jl) and [BitSAD.jl](https://github.com/UW-PHARM/BitSAD.jl) (and I review/contribute to many other ML related packages). I help lead the [ML community team](https://github.com/FluxML/ML-Coordination-Tracker) with [Brian Chen](https://github.com/ToucheSir) and [Lorenz Ohly](https://github.com/lorenzoh). If you are interested in getting involved with open source, email me!
+
+Away from engineering hall, George and I enjoy hiking, sailing, and playing guitar (Jorge plays the part of snoring). I try to cook, eat, garden, or woodwork to get a good work-life balance.
