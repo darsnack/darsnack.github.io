@@ -25,3 +25,4 @@ For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
 \newcommand{\set}[1]{ \mathbb{#1} }
+\newcommand{\vecb}[1]{ \mathbf{#1} }
