@@ -2,8 +2,11 @@
 
 ## Preprint Publications
 
-R. S. Raju, **K. Daruwalla,** M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint under review, November, 2021. https://arxiv.org/abs/2111.12621.\\
+R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint under review, November, 2021. https://arxiv.org/abs/2111.12621.\\
 [[pdf]](https://arxiv.org/abs/2111.12621)
+
+**K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, preprint under review, September, 2021. https://arxiv.org/abs/2111.13187.\\
+[[pdf]](https://arxiv.org/abs/2111.13187)
 
 ## Conference Publications
 
