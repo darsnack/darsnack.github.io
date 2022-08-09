@@ -31,6 +31,10 @@ R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynam
 
 ## Oral Presentations
 
+*Building Energy-Efficient Computers*,\\
+Invited talk: Cold Spring Harbor Lab NeuroAI Seminar, Long Island, NY. Feb. 2022.\\
+[[slides]](/assets/publications/CSHL NeuroAI Seminar - Slides.pdf)
+
 *BitSAD v2: Compiler Optimization and Analysis for Bitstream Computing*,\\
 High-performance Embedded Architecture and Compilation Conference, Bologna, Italy. Jan. 2020.\\
 [[slides]](/assets/publications/BitSADv2 - Slides.pdf)

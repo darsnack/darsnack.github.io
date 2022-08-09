@@ -18,7 +18,7 @@ Getting the *important* stuff out of the way, below are some pictures of my dog,
 @@
 
 My research interests include neuromorphic computing, biological learning, and ultra-low power computing paradigms. I have experience with computer architecture, ML, RTL design, and IC layout. I also taught (as a TA and instructor) undergrad and grad courses on computer engineering, embedded systems, PCB layout, optimization, and linear algebra for ML.
-You can find my full CV [here](/assets/cv.pdf).
+**You can find my full CV [here](/assets/cv.pdf).**
 
 Service and shared governance is important to me. I have dedicate my energy and time to elevating graduate student voices on campus, particularly in my own department. I have served as president, vice-president, and PR officer for our department's graduate student association. I also served on the Graduate School's Dean's Advisory Board, and I was a departmental steward for the [TAA](https://taa-madison.org). Email me if you want to discuss the importance of shared involvement in academia!
 
