@@ -105,10 +105,3 @@ function hfun_articles()
     endswith(r,   "</p>\n") && return chop(r, tail=5)
     return r
 end
-
-function lx_baz(com, _)
-  # keep this first line
-  brace_content = Franklin.content(com.braces[1]) # input string
-  # do whatever you want here
-  return uppercase(brace_content)
-end
