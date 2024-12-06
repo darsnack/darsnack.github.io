@@ -1,27 +1,54 @@
 @def title = "Publications and Presentations"
 
+@@row
+@@center
+[
+[Preprints](#preprint-publications) |
+[Conference publications](#conference-publications) |
+[Journal articles](#journal-publications) |
+[Presentations](#oral-presentations) |
+[Posters](#poster-presentations)
+]
+@@
+@@
+
 ## Preprint Publications
 
-R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint under review, November, 2021. https://arxiv.org/abs/2111.12621.\\
-[[pdf]](https://arxiv.org/abs/2111.12621)
+**K. Daruwalla**, I. N. Martin, A. Frankel, D. Naglič, Z. Ahmad, X. H. Hou, *A 3D whole-face movement analysis system to uncover underlying physiology in mice*, preprint, May, 2024. \\
+[[pdf]](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1.full.pdf)
 
-**K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, preprint, September, 2021. https://arxiv.org/abs/2111.13187.\\
-[[pdf]](https://arxiv.org/abs/2111.13187)
+R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint, November, 2021. \\
+[[pdf]](https://arxiv.org/pdf/2111.12621)
 
 ## Conference Publications
 
-**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019. http://dl.acm.org/citation.cfm?doid=3316482.3326355.\\
+\style{text-decoration: underline}{Spotlight paper 🔦} \\
+A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024. \\
+[[pdf]](https://openreview.net/pdf?id=qOSFiJdVkZ)
+
+**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019. \\
 [[pdf]](https://dl.acm.org/authorize?N681037)
 
 ## Journal Publications
 
-**K. Daruwalla**, H. Zhuo, R. Shukla, M. Lipasti, *BitSAD v2: Compiler Optimization and Analysis for Bitstream Computing*, ACM Transcations on Architecture and Code Optimization (TACO), Vol. 16, Iss. 4, No. 43. November 2019. https://dl.acm.org/citation.cfm?id=3364999.\\
+**K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, Frontiers in Computational Neuroscience, May, 2024. \\
+[[link]](https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2024.1240348/full)
+
+S. Khoram, **K. Daruwalla**, M. Lipasti, *Energy-Efficient Bayesian Inference Using Bitstream Computing*, IEEE Computer Architecture Letters, February 2023.
+
+**K. Daruwalla**, H. Zhuo, R. Shukla, M. Lipasti, *BitSAD v2: Compiler Optimization and Analysis for Bitstream Computing*, ACM Transcations on Architecture and Code Optimization (TACO), Vol. 16, Iss. 4, No. 43. November 2019. \\
 [[pdf]](https://dl.acm.org/doi/10.1145/3364999?cid=99659434975)
 
-**K. Daruwalla**, N. Olivero, A. Pluger, S. Rao, D.W. Chang, M. Simoni, *A quantitative analysis of the performance of computing architectures used in neural simulations*, Journal of Neuroscience Methods, Vol. 311. 2019, Pg. 57-66. http://www.sciencedirect.com/science/article/pii/S0165027018303017.\\
+**K. Daruwalla**, N. Olivero, A. Pluger, S. Rao, D.W. Chang, M. Simoni, *A quantitative analysis of the performance of computing architectures used in neural simulations*, Journal of Neuroscience Methods, Vol. 311. 2019, Pg. 57-66. \\
 [[link]](http://www.sciencedirect.com/science/article/pii/S0165027018303017)
 
 ## Workshop Publications
+
+X. Zheng, **K. Daruwalla**, A. S. Benjamin, D. Klindt, *Delays in generalization match delayed changes in representational geometry*, UniReps: 2nd Edition of the Workshop on Unifying Representations in Neural Models, December 2024. \\
+[[pdf]](https://openreview.net/pdf?id=1ae108kHk2)
+
+N. Joshi, **K. Daruwalla**, M. Lipasti, *BitFit: Bitstream-Aware Training for Stochastic Neural Networks*, Second Workshop on Unary Computing (WUC), April 2024. \\
+[[pdf]](/assets/publications/BitFit.pdf)
 
 **K. Daruwalla**, H. Zhuo, M. Lipasti, *BitSAD: A Domain-Specific Language for Bitstream Computing*, First ISCA Workshop on Unary Computing, June 2019.\\
 [[pdf]](/assets/publications/BitSADv1.pdf) [[slides]](/assets/publications/BitSADv1 - Slides.pdf)

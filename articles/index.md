@@ -1,6 +1,6 @@
-@def title = "Articles"
+@def title = "Posts"
 
-# Recent Articles
+# Recent Posts
 
 {{recentarticles}}
 
