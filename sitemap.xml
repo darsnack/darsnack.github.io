@@ -3,43 +3,61 @@
 
 <url>
     <loc>https://darsnack.github.io/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://darsnack.github.io/articles/2024/11/nte-neurips/index.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://darsnack.github.io/articles/2024/10/grokking-unireps/index.html</loc>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/about/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://darsnack.github.io/articles/2024/05/cheese-3d-preprint/index.html</loc>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/articles/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/articles/2021/11/snufa/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/publications/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/articles/2022/02/cshl-seminar/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://darsnack.github.io/articles/2022/06/graduated/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2024-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
