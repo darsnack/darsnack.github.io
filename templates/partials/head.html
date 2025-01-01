@@ -1,0 +1,26 @@
+<header>
+    <div>
+        <div class="profile">
+            <img src="/me.png">
+        </div>
+        <div class="main">
+            <div id="main_title">
+                <a href={{ config.base_url }}>{{ config.title }}</a>
+            </div>
+            <div id="main_subtitle">
+                {{ config.extra.subtitle }}
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        {% for menu in config.extra.menus %}
+            <a href={{ menu.url }}>{{ menu.name }}</a>
+        {% endfor %}
+
+        {% if config.extra.mode == "toggle" %}
+            | <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
+            <script src={{ get_url(path="js/themetoggle.js") }}></script>
+        {% endif %}
+    </nav>
+</header>

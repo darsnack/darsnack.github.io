@@ -1,0 +1,63 @@
+title = "Kyle Daruwalla"
+# The URL the site will be built for
+base_url = "https://darsnack.github.io"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+theme = "archie-zola"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra] # Put all your custom variables here
+# from theme
+katex_enable = true
+# control dark mode: auto | dark | toggle
+mode = "auto"
+# subtitle will show under the title in index page
+subtitle = "NeuroAI Scholar at CSHL"
+# if set true, will use external CDN resource to load font and js file
+useCDN = false
+favicon = "/icon/favicon.png"
+# show in the footer
+copyright = "Kyle Daruwalla"
+# max number of posts on front page
+max_recent_posts = 3
+# nav bar menu
+menus = [
+    { name = "Home", url = "/", weight = 2 },
+    { name = "All posts", url = "/posts", weight = 2 },
+    { name = "About", url = "/about", weight = 3 },
+    { name = "Publications", url = "/publications", weight = 4 },
+]
+
+[[extra.quick_link]]
+name = "CV"
+url = "/cv.pdf"
+
+[[extra.quick_link]]
+name = "Research Statement"
+url = "/research-statement.pdf"
+
+[[extra.social]]
+icon = "https://img.icons8.com/doodle/48/000000/new-post.png"
+name = "daruwal /at/ cshl.edu"
+
+[[extra.social]]
+icon = "/github.svg"
+name = "GitHub"
+url = "https://github.com/darsnack"
+
+[[extra.social]]
+icon = "https://img.icons8.com/dusk/64/butterfly.png"
+extras = "alt=\"butterfly\""
+name = "Bluesky"
+url = "https://bsky.app/profile/darsnack.bsky.social"
+
+[[extra.social]]
+icon = "/mastodon.svg"
+name = "Mastodon"
+url = "https://mastodon.social/@darsnack"

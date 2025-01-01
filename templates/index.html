@@ -1,0 +1,55 @@
+{% extends "archie-zola/templates/index.html" %}
+
+{% block main_content %}
+<main class="list">
+    <div class="site-description">
+        {% if config.description %}
+            {{ config.description | markdown | safe }}
+        {% endif %}
+    </div>
+
+    {{ section.content | safe }}
+
+    <p>
+    <strong>Quick links:</strong> [
+    {% for link in config.extra.quick_link %}
+        <a href="{{ link.url }}">{{ link.name }}</a>
+        {% if not loop.last %} | {% endif %}
+    {% endfor %} ]
+    </p>
+
+    <p>
+    <strong>Contact info:</strong> [
+    {% for social in config.extra.social %}
+        {% if social.url %}
+            {% if social.extras %}
+                <img src="{{ social.icon }}" {{ social.extras }} style="width:24px;height:24px;position: relative; top: 6px">
+            {% else %}
+                <img src="{{ social.icon }}" style="width:24px;height:24px;position: relative; top: 6px">
+            {% endif %}
+            <a href="{{ social.url }}">{{ social.name }}</a>
+        {% else %}
+            {% if social.extras %}
+                <img src="{{ social.icon }}" {{ social.extras }} style="width:24px;height:24px;position: relative; top: 6px">
+            {% else %}
+                <img src="{{ social.icon }}" style="width:24px;height:24px;position: relative; top: 6px">
+            {% endif %}
+            {{ social.name }}
+        {% endif %}
+        {% if not loop.last %} | {% endif %}
+    {% endfor %} ]
+    </p>
+
+    {%- if paginator %}
+        {%- set show_pages = paginator.pages -%}
+    {% else %}
+        {% set section = get_section(path="posts/_index.md") %}
+        {%- set show_pages = section.pages -%}
+    {% endif -%}
+
+    <hr>
+    <h1>Recent posts:</h1>
+    {{ post_macros::list_posts(pages=show_pages, extra=config.extra) }}
+</main>
+
+{% endblock main_content %}
