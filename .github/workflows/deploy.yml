@@ -14,46 +14,17 @@ on:
     branches:
       - dev
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-    # NOTE
-    #   Python is necessary for pre-rendering steps as well as to install
-    #   matplotlib which is necessary if you intend to use PyPlot. If you do
-    #   not, then you can remove the `run: pip install matplotlib` line.
-    - name: Install python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.x'
-    - run: pip install matplotlib # if you use PyPlot this is needed
-    - name: Install Julia
-      uses: julia-actions/setup-julia@v2
-      with:
-        version: '1.10'
-    # NOTE
-    #   The steps below ensure that NodeJS and Franklin are loaded then it
-    #   installs highlight.js which is needed for the prerendering step.
-    #   Then the environment is activated and instantiated to install all
-    #   Julia packages which may be required to successfully build your site.
-    #
-    #   The last line should be `optimize()` though you may want to give it
-    #   specific arguments, see the documentation or ?optimize in the REPL.
-    - run: julia -e '
-            using Pkg; Pkg.add(["NodeJS", "Franklin"]);
-            using NodeJS; run(`$(npm_cmd()) install highlight.js`);
-            using Franklin;
-            Pkg.activate("."); Pkg.instantiate();
-            optimize()'
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # NOTE
-        #   Set this to `BRANCH: gh-pages` for a **project** page and  to
-        #   `BRANCH: master` for a **personal** page
-        BRANCH: master
-        FOLDER: __site
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@master
+        env:
+          # Target branch
+          PAGES_BRANCH: main
+          # Provide personal access token
+          # TOKEN: ${{ secrets.TOKEN }}
+          # Or if publishing to the same repo, use the automatic token
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
