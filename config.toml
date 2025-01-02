@@ -34,6 +34,14 @@ menus = [
     { name = "Publications", url = "/publications", weight = 4 },
 ]
 
+[[extra.katex_macro]]
+source = "\\\\set"
+target = "\\\\mathbb{\\#1}"
+
+[[extra.katex_macro]]
+source = "\\\\vecb"
+target = "\\\\mathbf{\\#1}"
+
 [[extra.quick_link]]
 name = "CV"
 url = "/cv.pdf"

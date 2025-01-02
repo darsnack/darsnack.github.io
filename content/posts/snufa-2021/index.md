@@ -14,11 +14,9 @@ I presented our work on learning in biological networks by optimizing the inform
 
 Our work took inspiration from [HSIC training](https://arxiv.org/abs/1908.01580) for ANNs. Instead of computing a loss at the very end of the network, then propagating the loss backwards, HSIC training optimizes each layer independently. Every layer is updated to minimize
 
-$$
-\mathcal{L}_{\text{HSIC}} = \mathrm{HSIC}(\vecb{z}^\ell, \vecb{x}) - \gamma \mathrm{HSIC}(\vecb{z}^\ell, \vecb{y})
-$$
+$$ \mathcal{L}_{\text{HSIC}} = \mathrm{HSIC}(\vecb{z}^\ell, \vecb{x}) - \gamma \mathrm{HSIC}(\vecb{z}^\ell, \vecb{y}) $$
 
-where $\vecb{z}^\ell$ is the output of the layer $\ell$, and $\vecb{x}$/$\vecb{y}$ are the input/output of the entire network, respectively. We show the gradient descent update for this objective can be decomposed into two components --- a local Hebbian component and a layer-wise global modulatory signal.
+where $\vecb{z}^\ell$ is the output of the layer $\ell$, and $\vecb{x}$/$\vecb{y}$ are the input/output of the entire network, respectively. We show the gradient descent update for this objective can be decomposed into two components—a local Hebbian component and a layer-wise global modulatory signal.
 
 One challenge to applying this rule for SNNs directly is that the HSIC is computed over a batch of samples, but biological networks see samples sequentially, one-at-a-time. To overcome this, we encode a batch as a window of samples over time (i.e. a batch size of $N$ corresponds to the last $N$ samples presented to the network). We show that the local component depends only on the current sample, and the global component depends on the prior samples. Then, we propose using an auxiliary reservoir network to compute the global component as shown below.
 

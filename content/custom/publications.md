@@ -14,7 +14,7 @@ template = "generic-page.html"
 ]
 {% end %}
 
-## Preprint Publications
+# Preprint Publications
 
 **K. Daruwalla**, I. N. Martin, A. Frankel, D. Naglič, Z. Ahmad, X. H. Hou, *A 3D whole-face movement analysis system to uncover underlying physiology in mice*, preprint, May, 2024. \
 [ [pdf](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1.full.pdf) ]
@@ -22,7 +22,7 @@ template = "generic-page.html"
 R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint, November, 2021. \
 [ [pdf](https://arxiv.org/pdf/2111.12621) ]
 
-## Conference Publications
+# Conference Publications
 
 _Spotlight paper 🔦_ \
 A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024. \
@@ -31,7 +31,7 @@ A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural 
 **K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019. \
 [ [pdf](https://dl.acm.org/authorize?N681037) ]
 
-## Journal Publications
+# Journal Publications
 
 **K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, Frontiers in Computational Neuroscience, May, 2024. \
 [ [link](https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2024.1240348/full) ]
@@ -44,7 +44,7 @@ S. Khoram, **K. Daruwalla**, M. Lipasti, *Energy-Efficient Bayesian Inference Us
 **K. Daruwalla**, N. Olivero, A. Pluger, S. Rao, D.W. Chang, M. Simoni, *A quantitative analysis of the performance of computing architectures used in neural simulations*, Journal of Neuroscience Methods, Vol. 311. 2019, Pg. 57-66. \
 [ [link](http://www.sciencedirect.com/science/article/pii/S0165027018303017) ]
 
-## Workshop Publications
+# Workshop Publications
 
 X. Zheng, **K. Daruwalla**, A. S. Benjamin, D. Klindt, *Delays in generalization match delayed changes in representational geometry*, UniReps: 2nd Edition of the Workshop on Unifying Representations in Neural Models, December 2024. \
 [ [pdf](https://openreview.net/pdf?id=1ae108kHk2) ]
@@ -58,7 +58,7 @@ N. Joshi, **K. Daruwalla**, M. Lipasti, *BitFit: Bitstream-Aware Training for St
 **K. Daruwalla**, M. Lipasti, *Resource Efficient Navigation Using Bitstream Computing*, First ISCA Workshop on Unary Computing, June 2019.\
 [ [pdf](/publications/BitstreamHomography.pdf) ]
 
-## Oral Presentations
+# Oral Presentations
 
 *Building Energy-Efficient Computers*,\
 Invited talk: Cold Spring Harbor Lab NeuroAI Seminar, Long Island, NY. Feb. 2022.\
@@ -79,7 +79,7 @@ Languages, Compilers, and Tools for Embedded Systems, Phoenix, AZ. Jun. 2019.\
 *Seeing Through the FoG: A Biologically Inspired Navigation System*,\
 Industry Affiliates Meeting, Madison, WI. Oct. 2017.
 
-## Poster Presentations
+# Poster Presentations
 
 *A Biologically-Plausible Learning Rule Based on the Information Bottleneck*,\
 Spiking Neural networks as Universal Function Approximators (SNUFA '21), Nov. 2021.\

@@ -2,6 +2,7 @@
     --maincolor: green;
     --hovercolor: green;
     --bordercl: gray;
+    --darkMaincolor: mediumseagreen;
 }
 
 html {
@@ -16,6 +17,14 @@ img {
 hr {
     border: 0;
     border-top: 2px solid var(--bordercl);
+}
+
+span {
+    color: unset;
+}
+
+.post_details {
+    color: gray;
 }
 
 h1,

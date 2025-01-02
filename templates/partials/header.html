@@ -111,14 +111,41 @@
     {% endif %}
 
     {% if config.extra.katex_enable %}
+        {% if config.extra.katex_macro %}
+            {% set_global katex_script = "renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}], macros: {" %}
+            {% for macro in config.extra.katex_macro %}
+                {% set_global katex_script = katex_script ~ "'" ~ macro.source ~ "': '" ~ macro.target ~ "'" %}
+                {% if not loop.last %}
+                    {% set_global katex_script = katex_script ~ ", " %}
+                {% else %}
+                    {% set_global katex_script = katex_script ~ "}" %}
+                {% endif %}
+            {% endfor %}
+            {% set_global katex_script = katex_script ~ "});" %}
+        {% else %}
+            {% set_global katex_script = "renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}]});" %}
+        {% endif %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
+            onload="{{ katex_script }}"></script>
     {% endif %}
 
 
     <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="custom.css") }} />
-
+    {% if config.extra.mode == "auto" or config.extra.mode == "dark" or config.extra.mode == "toggle" %}
+        <link
+            rel="stylesheet"
+            id="darkModeStyle"
+            type="text/css"
+            href={{ get_url(path="custom_dark.css") }}
+            {% if config.extra.mode == "auto" %}
+                media="(prefers-color-scheme: dark)"
+            {% endif %}
+            {% if config.extra.mode == "toggle" %}
+                disabled
+            {% endif %}
+        />
+    {% endif %}
 
 </head>

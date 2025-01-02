@@ -32,9 +32,9 @@
             </h2>
 
             <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-            <span>| {{ page.reading_time }}  minute read</span>
+            <span class="post_details">| {{ page.reading_time }}  minute read</span>
             {% if page.extra.author %}
-                <span>| Published by <a href="{{ page.extra.author.social }}" target="_blank">{{ page.extra.author.name }}</a></span>
+                <span class="post_details">| Published by <a href="{{ page.extra.author.social }}" target="_blank">{{ page.extra.author.name }}</a></span>
             {% endif %}
 
             <br />
