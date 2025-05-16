@@ -3,9 +3,9 @@ paginate_by = 0
 sort_by = "date"
 +++
 
-{% note(title="**⚠️ On the job market**") %}
+<!-- {% note(title="**⚠️ On the job market**") %}
 I am on the faculty job market this fall! I am primarily looking for **electrical and/or computer science departments** with collaborations in **neuroscience**. If my research interests you, please reach out!
-{% end %}
+{% end %} -->
 
 Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into three areas:
 1. <img src="/cheese-3d.gif" style="width:150px; margin-left: 2%; border-radius: 5px; float:right">

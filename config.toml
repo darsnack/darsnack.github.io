@@ -46,9 +46,9 @@ target = "\\\\mathbf{\\#1}"
 name = "CV"
 url = "/cv.pdf"
 
-[[extra.quick_link]]
-name = "Research Statement"
-url = "/research-statement.pdf"
+# [[extra.quick_link]]
+# name = "Research Statement"
+# url = "/research-statement.pdf"
 
 [[extra.social]]
 icon = "https://img.icons8.com/doodle/48/000000/new-post.png"
