@@ -4,7 +4,7 @@ path = "publications"
 template = "generic-page.html"
 +++
 
-{% center() %}
+{% quicklinks() %}
 [
 [Preprints](#preprint-publications) |
 [Conference publications](#conference-publications) |
@@ -16,10 +16,10 @@ template = "generic-page.html"
 
 # Preprint Publications
 
-A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
+A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 
-**K. Daruwalla**, I. N. Martin, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D: Sensitive Detection and Analysis of WholeFace Movement in Mice*, preprint, May, 2025.
+**K. Daruwalla\***, I. N. Martin\*, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D: Sensitive Detection and Analysis of WholeFace Movement in Mice*, preprint, May, 2025.
 [ [pdf](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1.full.pdf) ]
 
 R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint, November, 2021.

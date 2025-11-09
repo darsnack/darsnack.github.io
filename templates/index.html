@@ -10,16 +10,16 @@
 
     {{ section.content | safe }}
 
-    <p>
-    <strong>Quick links:</strong> [
+    <p class="quick-links">
+    <span class="inline-header">Quick links:</span> [
     {% for link in config.extra.quick_link %}
         <a href="{{ link.url }}">{{ link.name }}</a>
         {% if not loop.last %} | {% endif %}
     {% endfor %} ]
     </p>
 
-    <p>
-    <strong>Contact info:</strong> [
+    <p class="contact-info">
+    <span class="inline-header">Contact info:</span> [
     {% for social in config.extra.social %}
         {% if social.url %}
             {% if social.extras %}

@@ -3,7 +3,7 @@ paginate_by = 0
 sort_by = "date"
 +++
 
-{% note(title="**⚠️ On the job market**") %}
+{% note(title="⚠️ On the job market") %}
 I am on the faculty job market this fall! I am primarily looking for **electrical and/or computer science departments** with collaborations in **neuroscience**. If my research interests you, please reach out!
 {% end %}
 

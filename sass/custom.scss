@@ -5,9 +5,19 @@
     --darkMaincolor: mediumseagreen;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 html {
     font-family: -apple-system, "Helvetica Neue", sans-serif;
     font-size: 18px;
+}
+
+p {
+    font-family: "EB Garamond";
+}
+
+a {
+    border-width: 2.5px;
 }
 
 img {
@@ -23,8 +33,25 @@ span {
     color: unset;
 }
 
+.katex {
+    font-size: 1.05em;
+}
+
+.inline-header {
+    font-weight: 500;
+}
+
+.quick-links, .contact-info {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+}
+
 .post_details {
     color: gray;
+    font-size: 0.9rem;
+}
+
+.description, .readmore {
+    font-family: "EB Garamond";
 }
 
 h1,
@@ -33,17 +60,19 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   margin-top: 0em;
+  /* font-weight: 500; */
 }
 
 h1 {
     font-size: 1.2rem;
 }
 
-h2 {
+/* h2 {
     font-size: 1.1rem;
-}
+} */
 
 h1::before,
 h2::before,
@@ -54,12 +83,21 @@ h6::before {
     content: "";
 }
 
+li {
+    font-family: "EB Garamond";
+}
+
 .list-item {
     margin-block-end: 1em;
 }
 
 .list-item h2 {
     margin-block-end: 0px;
+}
+
+.post > .meta {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 0.9rem;
 }
 
 footer {
@@ -88,6 +126,10 @@ header {
 #main_subtitle {
     color: #a6a2a0;
     font-size: 1.1rem;
+}
+
+#main_title > a {
+    border-width: 3px;
 }
 
 header .profile {
@@ -126,16 +168,22 @@ header nav a {
     /* width: 95%; */
     margin-left: auto;
     margin-right: auto;
-    background-color: aliceblue;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: cornflowerblue;
+    /* background-color: aliceblue; */
+    /* border-radius: 5px; */
+    /* border-top-style: solid; */
+    border-left-style: solid;
+    /* border-color: cornflowerblue; */
+    border-color: var(--maincolor);
     margin-bottom: 1em;
 }
 
 .note p {
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+.note_title p {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
 }
 
 .note .note_content {
@@ -145,6 +193,6 @@ header nav a {
 
 .note .note_title {
     padding-left: 7px;
-    color: white;
-    background: cornflowerblue;
+    /* color: white; */
+    background: rgba(green, 0.2);
 }
