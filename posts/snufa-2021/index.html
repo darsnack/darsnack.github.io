@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+        <title>
+             Poster at SNUFA &#x27;21
+            
+        </title>
+
+        
+            <meta property="og:title" content="Poster at SNUFA &#x27;21" />
+        
+    
+
+    
+        
+            <meta property="og:description" content="I presented my work on biologically plausible learning with the information bottleneck at SNUFA &#x27;21 (poster)." />
+        
+    
+
+    
+        
+            <meta name="description" content="I presented my work on biologically plausible learning with the information bottleneck at SNUFA &#x27;21 (poster)." />
+        
+    
+
+    
+         <link rel="icon" type="image/png" href=&#x2F;icon&#x2F;favicon.png />
+    
+
+    
+
+    
+
+    
+    
+        <script src=https://www.darsnack.info/js/feather.min.js></script>
+    
+
+
+    
+        <link href=https://www.darsnack.info/css/fonts.css rel="stylesheet" />
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://www.darsnack.info/css/main.css />
+
+    
+        <link
+            rel="stylesheet"
+            id="darkModeStyle"
+            type="text/css"
+            href=https://www.darsnack.info/css/dark.css
+            
+                media="(prefers-color-scheme: dark)"
+            
+            
+        />
+    
+
+    
+        
+            
+            
+                
+                
+                    
+                
+            
+                
+                
+                    
+                
+            
+            
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+            onload="renderMathInElement(document.body, {delimiters: [{left: &#x27;$$&#x27;, right: &#x27;$$&#x27;, display: true},{left: &#x27;$&#x27;, right: &#x27;$&#x27;, display: false}], macros: {&#x27;\\set&#x27;: &#x27;\\mathbb{\#1}&#x27;, &#x27;\\vecb&#x27;: &#x27;\\mathbf{\#1}&#x27;}});"></script>
+    
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://www.darsnack.info/custom.css />
+    
+        <link
+            rel="stylesheet"
+            id="darkModeStyle"
+            type="text/css"
+            href=https://www.darsnack.info/custom_dark.css
+            
+                media="(prefers-color-scheme: dark)"
+            
+            
+        />
+    
+
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div>
+        <div class="profile">
+            <img src="/me.png">
+        </div>
+        <div class="main">
+            <div id="main_title">
+                <a href=https:&#x2F;&#x2F;www.darsnack.info>Kyle Daruwalla</a>
+            </div>
+            <div id="main_subtitle">
+                NeuroAI Scholar at CSHL
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=&#x2F;>Home</a>
+        
+            <a href=&#x2F;posts>All posts</a>
+        
+            <a href=&#x2F;about>About</a>
+        
+            <a href=&#x2F;publications>Publications</a>
+        
+
+        
+    </nav>
+</header>
+
+
+        
+    
+<main>
+    <article>
+        <div class="title">
+            <h1 class="title">Poster at SNUFA &#x27;21</h1>
+            <div class="meta">
+                
+                on 2021-11-26
+
+                
+            </div>
+        </div>
+
+        
+
+        <section class="body">
+            <p>I presented <a href="https://arxiv.org/abs/2111.13187">my work</a> on a biologically plausible learning rule as a <a href="/publications/SNUFA21-Poster.pdf">poster</a> at the <a href="http://snufa.net">Spiking Neural networks as Universal Function Approximators (SNUFA '21)</a>. There were many great talks and posters presented, but I was most excited by the presentations on spiking neural networks (SNNs) being applied to solve real problems:</p>
+<ul>
+<li>the European Space Agency is looking at SNNs to solve graph problems (first time I've seen a graph neural network (GNN) equivalent for spikes!)</li>
+<li><a href="https://arxiv.org/abs/2109.13751">StereoSpike</a> uses two event-based cameras with a U-Net architecture to perceive depth. This work was especially cool for me, because I briefly looked at stereoscopic perception using conventional computer vision algorithms at the start of my Ph.D. We were trying to build a bitstream computing circuit as a stepping stone to SNNs, so it's cool to see someone find a solution to the problem years later.</li>
+</ul>
+<h1 id="our-work">Our work</h1>
+<p>I presented our work on learning in biological networks by optimizing the information bottleneck. The success of deep learning has emphasized the importance of depth when training networks to solve complex problems. Depth isn't an issue for artificial neural networks (ANNs), because back-propagation provides a systematic way to assigning credit regardless of depth. Currently, there is not an accepted, biologically plausible back-propagation equivalent for SNNs, though we can use <a href="https://ieeexplore.ieee.org/document/8891809">surrogate gradients</a> when the plausibility constraint is removed.</p>
+<p>Our work took inspiration from <a href="https://arxiv.org/abs/1908.01580">HSIC training</a> for ANNs. Instead of computing a loss at the very end of the network, then propagating the loss backwards, HSIC training optimizes each layer independently. Every layer is updated to minimize</p>
+<p>$$ \mathcal{L}_{\text{HSIC}} = \mathrm{HSIC}(\vecb{z}^\ell, \vecb{x}) - \gamma \mathrm{HSIC}(\vecb{z}^\ell, \vecb{y}) $$</p>
+<p>where $\vecb{z}^\ell$ is the output of the layer $\ell$, and $\vecb{x}$/$\vecb{y}$ are the input/output of the entire network, respectively. We show the gradient descent update for this objective can be decomposed into two components—a local Hebbian component and a layer-wise global modulatory signal.</p>
+<p>One challenge to applying this rule for SNNs directly is that the HSIC is computed over a batch of samples, but biological networks see samples sequentially, one-at-a-time. To overcome this, we encode a batch as a window of samples over time (i.e. a batch size of $N$ corresponds to the last $N$ samples presented to the network). We show that the local component depends only on the current sample, and the global component depends on the prior samples. Then, we propose using an auxiliary reservoir network to compute the global component as shown below.</p>
+<p><img src="https://www.darsnack.info/posts/snufa-2021/hsic-rule.png" alt="Our learning rule is a three-factor Hebbian rule. It contains a local component that depends on the current sample, and a global component that depends on past samples. A reservoir is used to compute the global component." /></p>
+<p>Note that the reservoir can be trained a priori using random data, and it does not need to be trained during the main learning task (though it can be). Check out our <a href="/publications/SNUFA21-Poster.pdf">poster</a> or <a href="https://arxiv.org/abs/2111.13187">preprint</a> for more details!</p>
+
+        </section>
+
+        
+
+    </article>
+</main>
+
+
+
+        <footer>
+  <div class="footer-info">
+    2025 © Kyle Daruwalla
+  </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
