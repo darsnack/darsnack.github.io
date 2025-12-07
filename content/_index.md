@@ -7,10 +7,10 @@ sort_by = "date"
 I am on the faculty job market this fall! I am primarily looking for **electrical and/or computer science departments** with collaborations in **neuroscience**. If my research interests you, please reach out!
 {% end %}
 
-Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into three areas:
+Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into two areas:
 1. <img src="/cheese-3d.gif" style="width:150px; margin-left: 2%; border-radius: 5px; float:right">
 
-   **Applying ML models to neuroscience datasets:** Neuroscience data is complex and high-dimensional but contains far fewer and noiser samples than standard ML benchmarks. I believe using existing ML methods in these contexts can help answer scientific questions while also providing unique insight into model failure modes. Currently, I collaborate with the [Hou Lab at CSHL](https://www.houlab.org) to apply 3D pose-tracking models to [study facial expressions in mice](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1).
+   **Applying ML models to neuroscience datasets:** Neuroscience data is complex and high-dimensional but contains far fewer and noiser samples than standard ML benchmarks. I believe using existing ML methods in these contexts can help answer scientific questions while also providing unique insight into model failure modes. Currently, I collaborate with the [Hou Lab at CSHL](https://www.houlab.org) to [apply 3D pose-tracking models](https://hou-lab-cshl.github.io/cheese3d/) to [study facial expressions in mice](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1).
 2. <img src="/development-ai.png" style="width:250px; margin-left: 2%; border-radius: 5px; float:right">
 
    **Building ML models inspired by neuronal development and evolution:**
