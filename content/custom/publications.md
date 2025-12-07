@@ -16,7 +16,7 @@ template = "generic-page.html"
 
 # Preprint Publications
 
-A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
+A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. Zekri, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 
 **K. Daruwalla\***, I. N. Martin\*, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D: Sensitive Detection and Analysis of WholeFace Movement in Mice*, preprint, May, 2025.
