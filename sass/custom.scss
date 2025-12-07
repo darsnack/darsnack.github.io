@@ -60,8 +60,13 @@ span {
     font-size: 0.9rem;
 }
 
-.description, .readmore {
+.description {
     font-family: "EB Garamond";
+}
+
+.readmore {
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 h1,
