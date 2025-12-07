@@ -14,10 +14,20 @@ html {
 
 p {
     font-family: "EB Garamond";
+    font-weight: 425;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 a {
     border-width: 2.5px;
+}
+
+p:not(.quick-links):not(.contact-info) > a, li > a {
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: var(--hovercolor);
+    text-decoration-thickness: 2px;
 }
 
 img {
@@ -85,6 +95,9 @@ h6::before {
 
 li {
     font-family: "EB Garamond";
+    font-weight: 425;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 .list-item {
