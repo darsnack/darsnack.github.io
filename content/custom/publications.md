@@ -63,6 +63,13 @@ N. Joshi, **K. Daruwalla**, M. Lipasti, *BitFit: Bitstream-Aware Training for St
 
 # Oral Presentations
 
+*Exploiting structure in brains and machines*\
+Invited talk: CSHL Annual Postdoc Retreat, Long Island, NY. Sep. 2025.
+
+*Intro. to FluxML and Machine Learning in Julia*\
+Data Umbrella Seminar Series, Online. Jun. 2023.
+[ [YouTube](https://www.youtube.com/watch?v=WPMEILeh1Q8) ]
+
 *Building Energy-Efficient Computers*,\
 Invited talk: Cold Spring Harbor Lab NeuroAI Seminar, Long Island, NY. Feb. 2022.
 [ [slides](/publications/CSHL-NeuroAI-Seminar-Slides.pdf) ]
@@ -84,8 +91,20 @@ Industry Affiliates Meeting, Madison, WI. Oct. 2017.
 
 # Poster Presentations
 
+*Neuromodulation implies a manifold of model weights*,\
+NeuroAI in Seattle 2025, Seattle, WA. Jul. 2025.
+
+*Cheese3D: Sensitive Detection and Analysis of Whole-Face Movement in Mice*,\
+Computational and Systems Neuroscience (COSYNE 2025), Montreal, QC. Mar. 2025.
+
+*Generative modeling of trained networks as an analogy for neuronal development*,\
+From Neuroscience to Artificial Intelligence (NAISys 2024), Long Island, NY. Sep. 2024.
+
+*The dynamics of interpretable 3D facial features reflect hidden neural and physiological states in mice*,\
+Neuronal Circuits, Long Island, NY. Mar. 2024.
+
 *A Biologically-Plausible Learning Rule Based on the Information Bottleneck*,\
-Spiking Neural networks as Universal Function Approximators (SNUFA '21), Nov. 2021.
+Spiking Neural networks as Universal Function Approximators (SNUFA '21). Nov. 2021.
 [ [poster](/publications/SNUFA21-Poster.pdf) ]
 
 *BitBench: A Benchmark for Bitstream Computing*,\
