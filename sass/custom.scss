@@ -28,7 +28,7 @@ a {
     border-width: 2.5px;
 }
 
-p:not(.quick-links):not(.contact-info) > a, li > a {
+p:not(.quick-links):not(.contact-info) > a, li > a, strong > a {
     border: none;
     text-decoration: underline;
     text-decoration-color: var(--hovercolor);
@@ -184,6 +184,10 @@ header nav {
 header nav a {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+article .title {
+    margin-bottom: 0;
 }
 
 .note {
