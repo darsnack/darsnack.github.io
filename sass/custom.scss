@@ -5,7 +5,11 @@
     --darkMaincolor: mediumseagreen;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive:MONO@1&display=swap");
+
+@import url("giallo-dark.css") (prefers-color-scheme: dark);
+@import url("giallo-light.css") (prefers-color-scheme: light);
 
 html {
     font-family: -apple-system, "Helvetica Neue", sans-serif;
@@ -214,4 +218,35 @@ header nav a {
     padding-left: 7px;
     /* color: white; */
     background: rgba(green, 0.2);
+}
+
+@media screen {
+    @media (prefers-color-scheme: dark) {
+        .z-code {
+            color: #DBD7CAEE;
+            background-color: #202124;
+        }
+    }
+}
+.giallo {
+    padding: 0;
+    line-height: 0.5;
+}
+.giallo-l {
+    font-family: "Recursive";
+    font-size: 75%;
+    display: inline-block;
+    min-height: 1lh;
+    width: 100%;
+    text-wrap-mode: nowrap;
+}
+.giallo-ln {
+    display: inline-block;
+    user-select: none;
+    margin-right: 0.4em;
+    padding: 0.4em;
+    min-width: 3ch;
+    text-align: right;
+    opacity: 0.8;
+    border-right: 1px solid #393A3450;
 }
