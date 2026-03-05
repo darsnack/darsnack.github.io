@@ -1,0 +1,49 @@
+# ----- Basic Zsh Settings -----
+setopt autocd
+setopt interactive_comments
+setopt hist_ignore_dups
+setopt share_history
+
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+if [[ "${terminfo[kcbt]}" != "" ]]; then
+    bindkey "${terminfo[kcbt]}" reverse-menu-complete   # [Shift-Tab] - move through the completion menu backwards
+fi
+
+autoload -U compinit
+compinit -i
+
+# ----- OMZ Configuration -----
+OMZ_PLUGIN_DIR="$HOME/.oh-my-zsh"
+OMZ_REPO="https://github.com/ohmyzsh/ohmyzsh.git"
+
+# ----- OMZ loader function -----
+omz_plugin() {
+  # Clone the OMZ repo (sparse, shallow) on first call
+  if [[ ! -d "$OMZ_PLUGIN_DIR" ]]; then
+    echo "[omz_plugin] Downloading Oh My Zsh plugin library..."
+    git clone --depth=1 --filter=blob:none --sparse "$OMZ_REPO" "$OMZ_PLUGIN_DIR" \
+      && git -C "$OMZ_PLUGIN_DIR" sparse-checkout set plugins/ lib/
+  fi
+
+  local plugin
+  for plugin in "$@"; do
+    local plugin_file="$OMZ_PLUGIN_DIR/plugins/$plugin/$plugin.plugin.zsh"
+
+    if [[ -f "$plugin_file" ]]; then
+      source "$plugin_file"
+    else
+      echo "[omz_plugin] Warning: plugin '$plugin' not found at $plugin_file" >&2
+    fi
+  done
+}
+
+# ----- Usage: load plugins by name -----
+omz_plugin git extract z brew
+
+source $OMZ_PLUGIN_DIR/lib/completion.zsh
+source $OMZ_PLUGIN_DIR/lib/directories.zsh
+
+eval "$(starship init zsh)"
