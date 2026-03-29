@@ -20,7 +20,7 @@ p {
     font-family: "EB Garamond";
     font-weight: 425;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 25px;
     text-align: justify;
 }
 
@@ -107,7 +107,7 @@ li {
     font-family: "EB Garamond";
     font-weight: 425;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 25px;
 }
 
 .list-item {
@@ -253,4 +253,21 @@ article .title {
     text-align: right;
     opacity: 0.8;
     border-right: 1px solid #393A3450;
+}
+
+figure {
+    padding: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-family: "EB Garamond";
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 0.5em;
+    font-style: italic;
 }

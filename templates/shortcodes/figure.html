@@ -1,0 +1,6 @@
+<figure>
+    <img src="{{ src }}" alt="{{ alt | default(value='') | safe }}" />
+    <figcaption>
+        {{ body | markdown | safe }}
+    </figcaption>
+</figure>

@@ -20,6 +20,8 @@ where $\vecb{z}^\ell$ is the output of the layer $\ell$, and $\vecb{x}$/$\vecb{y
 
 One challenge to applying this rule for SNNs directly is that the HSIC is computed over a batch of samples, but biological networks see samples sequentially, one-at-a-time. To overcome this, we encode a batch as a window of samples over time (i.e. a batch size of $N$ corresponds to the last $N$ samples presented to the network). We show that the local component depends only on the current sample, and the global component depends on the prior samples. Then, we propose using an auxiliary reservoir network to compute the global component as shown below.
 
-![Our learning rule is a [three-factor Hebbian rule](http://journal.frontiersin.org/Article/10.3389/fncir.2015.00085/abstract). It contains a local component that depends on the current sample, and a global component that depends on past samples. A reservoir is used to compute the global component.](hsic-rule.png)
+{% figure(src="hsic-rule.png", alt="A diagram of our learning rule showing three-factors: a Hebbian component and a global third factor given by an auxiliary reservoir") %}
+Our learning rule is a [three-factor Hebbian rule](http://journal.frontiersin.org/Article/10.3389/fncir.2015.00085/abstract). It contains a local component that depends on the current sample, and a global component that depends on past samples. A reservoir is used to compute the global component.
+{% end %}
 
 Note that the reservoir can be trained a priori using random data, and it does not need to be trained during the main learning task (though it can be). Check out our [poster](/publications/SNUFA21-Poster.pdf) or [preprint](https://arxiv.org/abs/2111.13187) for more details!
