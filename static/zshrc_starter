@@ -1,16 +1,5 @@
 # ----- Basic Zsh Settings -----
-setopt autocd
-setopt interactive_comments
-setopt hist_ignore_dups
-setopt share_history
-
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-
-if [[ "${terminfo[kcbt]}" != "" ]]; then
-    bindkey "${terminfo[kcbt]}" reverse-menu-complete   # [Shift-Tab] - move through the completion menu backwards
-fi
+source ~/.custom_zsh_setup
 
 autoload -U compinit
 compinit -i
