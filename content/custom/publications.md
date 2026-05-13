@@ -19,9 +19,6 @@ template = "generic-page.html"
 A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. Zekri, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 
-**K. Daruwalla\***, I. N. Martin\*, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D: Sensitive Detection and Analysis of WholeFace Movement in Mice*, preprint, May, 2025.
-[ [pdf](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1.full.pdf) ]
-
 R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynamic Data Pruning*, preprint, November, 2021.
 [ [pdf](https://arxiv.org/pdf/2111.12621) ]
 
@@ -31,10 +28,13 @@ _Spotlight paper 🔦_ \
 A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024.
 [ [pdf](https://openreview.net/pdf?id=qOSFiJdVkZ) ]
 
-**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019.
+**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019.\
 [ [pdf](https://dl.acm.org/authorize?N681037) ]
 
 # Journal Publications
+
+**K. Daruwalla\***, I. N. Martin\*, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, R. Zhao, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D enables sensitive detection and analysis of whole-face movement in mice*, Nature Neuroscience, April, 2026.
+[ [link](https://www.nature.com/articles/s41593-026-02262-8) ]
 
 **K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, Frontiers in Computational Neuroscience, May, 2024.\
 [ [link](https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2024.1240348/full) ]
