@@ -6,6 +6,8 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Recursive:MONO@1&display=swap");
 
 @import url("giallo-dark.css") (prefers-color-scheme: dark);
@@ -16,11 +18,21 @@ html {
     font-size: 19px;
 }
 
+/* strong {
+    font-weight: 500;
+} */
+
 p {
-    font-family: "EB Garamond";
-    font-weight: 425;
-    font-size: 20px;
-    line-height: 25px;
+    /* font-family: "EB Garamond"; */
+    /* font-family: "Fraunces"; */
+    font-family: "Sorts Mill Goudy";
+    /* font-weight: 425; */
+    /* font-weight: 350; */
+    font-weight: 550;
+    /* font-size: 20px; */
+    font-size: 18px;
+    /* line-height: 25px; */
+    line-height: 22.5px;
     text-align: justify;
 }
 
@@ -58,6 +70,8 @@ span {
 
 .quick-links, .contact-info {
     font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .post_details {
@@ -66,7 +80,8 @@ span {
 }
 
 .description {
-    font-family: "EB Garamond";
+    /* font-family: "EB Garamond"; */
+    font-family: "Sorts Mill Goudy";
 }
 
 .readmore {
@@ -104,10 +119,14 @@ h6::before {
 }
 
 li {
-    font-family: "EB Garamond";
-    font-weight: 425;
-    font-size: 20px;
-    line-height: 25px;
+    /* font-family: "EB Garamond"; */
+    font-family: "Sorts Mill Goudy";
+    /* font-weight: 425; */
+    font-weight: 550;
+    /* font-size: 20px; */
+    font-size: 18px;
+    /* line-height: 25px; */
+    line-height: 22.5px;
 }
 
 .list-item {
@@ -121,6 +140,7 @@ li {
 .post > .meta {
     font-family: -apple-system, "Helvetica Neue", sans-serif;
     font-size: 0.9rem;
+    font-weight: 400;
 }
 
 footer {
@@ -265,7 +285,8 @@ figure img {
 }
 
 figcaption {
-    font-family: "EB Garamond";
+    /* font-family: "EB Garamond"; */
+    font-family: "Sorts Milll Goudy";
     font-size: 0.8em;
     color: #888;
     margin-top: 0.5em;
