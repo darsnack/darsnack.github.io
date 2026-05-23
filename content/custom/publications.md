@@ -36,10 +36,10 @@ A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural 
 **K. Daruwalla\***, I. N. Martin\*, L. Zhang, D. Naglič, A. Frankel, C. Rasgaitis, R. Zhao, X. Zhang, Z. Ahmad, J. Borniger, X. H. Hou, *Cheese3D enables sensitive detection and analysis of whole-face movement in mice*, Nature Neuroscience, April, 2026.
 [ [link](https://www.nature.com/articles/s41593-026-02262-8) ]
 
-**K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, Frontiers in Computational Neuroscience, May, 2024.\
+**K. Daruwalla**, M. Lipasti, *Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates*, Frontiers in Computational Neuroscience, May, 2024.
 [ [link](https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2024.1240348/full) ]
 
-S. Khoram, **K. Daruwalla**, M. Lipasti, *Energy-Efficient Bayesian Inference Using Bitstream Computing*, IEEE Computer Architecture Letters, February 2023.
+S. Khoram, **K. Daruwalla**, M. Lipasti, *Energy-Efficient Bayesian Inference Using Bitstream Computing*, IEEE Computer Architecture Letters, February 2023. [ [link](https://ieeexplore.ieee.org/abstract/document/10044217) ]
 
 **K. Daruwalla**, H. Zhuo, R. Shukla, M. Lipasti, *BitSAD v2: Compiler Optimization and Analysis for Bitstream Computing*, ACM Transcations on Architecture and Code Optimization (TACO), Vol. 16, Iss. 4, No. 43. November 2019.
 [ [pdf](https://dl.acm.org/doi/10.1145/3364999?cid=99659434975) ]
