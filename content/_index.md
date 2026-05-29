@@ -11,7 +11,7 @@ Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, N
 
 **Applying ML models to neuroscience datasets:**
 <img src="/cheese-3d.gif" style="width:150px; margin-left: 2%; border-radius: 5px; float:right">
-Neuroscience data is complex and high-dimensional but contains far fewer and noiser samples than standard ML benchmarks. I believe using existing ML methods in these contexts can help answer scientific questions while also providing unique insight into model failure modes. Currently, I collaborate with the [Hou Lab at CSHL](https://www.houlab.org) to [apply 3D pose-tracking models](https://hou-lab-cshl.github.io/cheese3d/) to [study facial expressions in mice](https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1).
+Neuroscience data is complex and high-dimensional but contains far fewer and noiser samples than standard ML benchmarks. I believe using existing ML methods in these contexts can help answer scientific questions while also providing unique insight into model failure modes. Currently, I collaborate with the [Hou Lab at CSHL](https://www.houlab.org) to [apply 3D pose-tracking models](https://hou-lab-cshl.github.io/cheese3d/) to [study facial expressions in mice](https://www.nature.com/articles/s41593-026-02262-8).
 
 **Building ML models inspired by neuronal development and evolution:**
 <img src="/development-ai.png" style="width:220px; margin-left: 2%; border-radius: 5px; float:right">
