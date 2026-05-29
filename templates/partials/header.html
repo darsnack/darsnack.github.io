@@ -110,25 +110,100 @@
         />
     {% endif %}
 
-    {% if config.extra.katex_enable %}
-        {% if config.extra.katex_macro %}
-            {% set_global katex_script = "renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}], macros: {" %}
-            {% for macro in config.extra.katex_macro %}
-                {% set_global katex_script = katex_script ~ "'" ~ macro.source ~ "': '" ~ macro.target ~ "'" %}
-                {% if not loop.last %}
-                    {% set_global katex_script = katex_script ~ ", " %}
-                {% else %}
-                    {% set_global katex_script = katex_script ~ "}" %}
-                {% endif %}
-            {% endfor %}
-            {% set_global katex_script = katex_script ~ "});" %}
-        {% else %}
-            {% set_global katex_script = "renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}]});" %}
-        {% endif %}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-            onload="{{ katex_script }}"></script>
+    {% if config.extra.typst_enable %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kern-typ@0.2.0/styles/kern.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kern-typ@0.2.0/styles/kern-newcm.css">
+        <script type="module">
+            import renderMathInElement from "https://cdn.jsdelivr.net/npm/kern-typ@0.2.0/dist/auto-render.js";
+
+            const typstFunctions = {{ config.extra.typst_function | default(value=[]) | json_encode | safe }};
+
+            function applyTypstFunctions(source) {
+                return typstFunctions.reduce(
+                    (expanded, fn) => expandTypstFunction(expanded, fn.name, fn.target),
+                    source,
+                );
+            }
+
+            function expandTypstFunction(source, name, target) {
+                const needle = `${name}(`;
+                let result = "";
+                let cursor = 0;
+
+                while (cursor < source.length) {
+                    const start = source.indexOf(needle, cursor);
+                    if (start === -1) {
+                        result += source.slice(cursor);
+                        break;
+                    }
+
+                    const before = source[start - 1];
+                    const after = source[start + needle.length];
+                    const hasIdentifierBefore = before && /[A-Za-z0-9_.]/.test(before);
+                    const isEmptyCall = after === ")";
+                    if (hasIdentifierBefore || isEmptyCall) {
+                        result += source.slice(cursor, start + needle.length);
+                        cursor = start + needle.length;
+                        continue;
+                    }
+
+                    const parsed = parseTypstFunctionArgs(source, start + needle.length);
+                    if (!parsed) {
+                        result += source.slice(cursor, start + needle.length);
+                        cursor = start + needle.length;
+                        continue;
+                    }
+
+                    result += source.slice(cursor, start);
+                    result += target.replace(/#(\d+)/g, (_, index) => parsed.args[Number(index) - 1] ?? "");
+                    cursor = parsed.end + 1;
+                }
+
+                return result;
+            }
+
+            function parseTypstFunctionArgs(source, start) {
+                const args = [];
+                let depth = 0;
+                let argStart = start;
+                let inString = false;
+
+                for (let index = start; index < source.length; index += 1) {
+                    const char = source[index];
+                    const previous = source[index - 1];
+
+                    if (char === '"' && previous !== "\\") {
+                        inString = !inString;
+                        continue;
+                    }
+
+                    if (inString) continue;
+
+                    if (char === "(") depth += 1;
+                    if (char === ")") {
+                        if (depth === 0) {
+                            args.push(source.slice(argStart, index).trim());
+                            return { args, end: index };
+                        }
+                        depth -= 1;
+                    }
+                    if (char === "," && depth === 0) {
+                        args.push(source.slice(argStart, index).trim());
+                        argStart = index + 1;
+                    }
+                }
+
+                return null;
+            }
+
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '$', right: '$', display: false },
+                ],
+                preProcess: applyTypstFunctions,
+            });
+        </script>
     {% endif %}
 
 
