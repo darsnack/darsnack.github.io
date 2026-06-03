@@ -16,6 +16,9 @@ template = "generic-page.html"
 
 # Preprint Publications
 
+Y. Wang, L. Aharon, W. Zhu, **K. Daruwalla**, L. Zhang, J. Zou, S. Chettih, H. Hou, L. Paninski, M. R. Whiteway, *BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting*, preprint, June, 2026.
+[ [pdf](https://arxiv.org/pdf/2606.02937) ]
+
 A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. Zekri, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 
