@@ -29,7 +29,7 @@ R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynam
 
 _Spotlight paper 🔦_ \
 A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024.
-[ [pdf](https://openreview.net/pdf?id=qOSFiJdVkZ) ]
+[ [pdf](https://proceedings.neurips.cc/paper_files/paper/2024/file/6bf333d4ca7c7f6fe6e301b2a3160163-Paper-Conference.pdf) ]
 
 **K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019.
 [ [pdf](https://dl.acm.org/authorize?N681037) ]
