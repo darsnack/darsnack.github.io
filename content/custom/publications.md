@@ -94,11 +94,17 @@ Industry Affiliates Meeting, Madison, WI. Oct. 2017.
 
 # Poster Presentations
 
+*Extending Cheese3D with Soft Body Curves to Measure Facial Movement in Mice*,\
+AI in Biology Symposium, Long Island, NY. May 2026.
+
 *Neuromodulation implies a manifold of model weights*,\
 NeuroAI in Seattle 2025, Seattle, WA. Jul. 2025.
 
 *Cheese3D: Sensitive Detection and Analysis of Whole-Face Movement in Mice*,\
 Computational and Systems Neuroscience (COSYNE 2025), Montreal, QC. Mar. 2025.
+
+*Continual learning with the neural tangent ensemble*,\
+NeurIPS 2024, Vancouver, Canada. Dec. 2024.
 
 *Generative modeling of trained networks as an analogy for neuronal development*,\
 From Neuroscience to Artificial Intelligence (NAISys 2024), Long Island, NY. Sep. 2024.
