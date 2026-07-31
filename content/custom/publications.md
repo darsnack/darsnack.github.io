@@ -31,7 +31,7 @@ _Spotlight paper 🔦_ \
 A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024.
 [ [pdf](https://openreview.net/pdf?id=qOSFiJdVkZ) ]
 
-**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019.\
+**K. Daruwalla**, H. Zhuo, C. Schulz, M. Lipasti, *BitBench: A Benchmark for Bitstream Computing*, Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES '19), June 23, 2019.
 [ [pdf](https://dl.acm.org/authorize?N681037) ]
 
 # Journal Publications
@@ -78,7 +78,7 @@ Invited talk: Cold Spring Harbor Lab NeuroAI Seminar, Long Island, NY. Feb. 2022
 [ [slides](/publications/CSHL-NeuroAI-Seminar-Slides.pdf) ]
 
 *BitSAD v2: Compiler Optimization and Analysis for Bitstream Computing*,\
-High-performance Embedded Architecture and Compilation Conference, Bologna, Italy. Jan. 2020.\
+High-performance Embedded Architecture and Compilation Conference, Bologna, Italy. Jan. 2020.
 [ [slides](/publications/BitSADv2-Slides.pdf) ]
 
 *Resource Efficient Navigation Using Bitstream Computing*,\

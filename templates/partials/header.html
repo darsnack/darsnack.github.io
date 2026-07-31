@@ -208,6 +208,14 @@
 
 
     <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="custom.css") }} />
+    <script
+        type="module"
+        blocking="render"
+        src="https://cdn.jsdelivr.net/npm/justif@0.6.5/dist/auto.js"
+        integrity="sha384-ZJkBKB5oGV2zfELjwwGaci3F7bweThV61icgsHnTB8GznYH0OHEOIhrYiVs3eYFX"
+        crossorigin="anonymous"
+        data-justif-selector="p:not(.quick-links):not(.contact-info)"
+    ></script>
     {% if config.extra.mode == "auto" or config.extra.mode == "dark" or config.extra.mode == "toggle" %}
         <link
             rel="stylesheet"
