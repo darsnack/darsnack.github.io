@@ -6,6 +6,11 @@ sort_by = "date"
 <!--{% note(title="⚠️ On the job market") %}
 I am on the faculty job market this fall! I am primarily looking for **electrical and/or computer science departments** with collaborations in **neuroscience**. If my research interests you, please reach out!
 {% end %}-->
+{% note(title="⚠️ Looking for industry research scientist/engineer roles!") %}
+I have 8+ years of experience in AI/ML focusing on efficiency across the compute stack: (1) low-power hardware/compilers for ML applications, (2) bio-inspired algorithms for data & compute efficiency, and (3) frontier models for multi-modal biological datasets. I also have extensive open-source software experience and leadership across multiple research teams.
+
+Please reach out if I could be a good fit for your team!
+{% end %}
 
 Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into two areas:
 
