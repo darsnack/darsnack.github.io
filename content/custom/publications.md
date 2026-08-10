@@ -4,15 +4,7 @@ path = "publications"
 template = "generic-page.html"
 +++
 
-{% quicklinks() %}
-[
-[Preprints](#preprint-publications) |
-[Conference publications](#conference-publications) |
-[Journal articles](#journal-publications) |
-[Presentations](#oral-presentations) |
-[Posters](#poster-presentations)
-]
-{% end %}
+{{<quicklinks content="[ [Preprints](#preprint-publications) | [Conference publications](#conference-publications) | [Journal articles](#journal-publications) | [Presentations](#oral-presentations) | [Posters](#poster-presentations) ]" />}}
 
 # Preprint Publications
 

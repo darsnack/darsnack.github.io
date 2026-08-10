@@ -1,4 +1,4 @@
-{% macro list_title(pages, tag_name=false) %}
+{% component list_title(pages, tag_name=false) %}
     {% if tag_name %}
         <h1>Entries tagged - "{{ term.name }}"</h1>
     {% else %}
@@ -13,9 +13,9 @@
             </li>
         {% endfor %}
     </ul>
-{% endmacro list_title %}
+{% endcomponent list_title %}
 
-{% macro list_posts(pages, extra) %}
+{% component list_posts(pages, extra) %}
     <ul>
     {%- for page in pages %}
         {%- if page.draft %}
@@ -55,9 +55,9 @@
 
     {% endfor -%}
     </ul>
-{% endmacro list_posts %}
+{% endcomponent list_posts %}
 
-{% macro tags(page, short=false) %}
+{% component tags(page, short=false) %}
     {%- if page.taxonomies and page.taxonomies.tags %}
         <span class="post-tags-inline">
             {%- if short %}
@@ -73,9 +73,9 @@
             {% endfor -%}
         </span>
     {% endif -%}
-{% endmacro tags %}
+{% endcomponent tags %}
 
-{% macro content(page, extra) %}
+{% component content(page, extra) %}
 <main>
     <article>
         <div class="title">
@@ -117,4 +117,4 @@
 
     </article>
 </main>
-{% endmacro content %}
+{% endcomponent content %}

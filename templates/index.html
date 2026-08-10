@@ -8,6 +8,10 @@
         {% endif %}
     </div>
 
+    {% if section.extra.welcome_notice %}
+        {{<note title={section.extra.welcome_notice.title} content={section.extra.welcome_notice.content} />}}
+    {% endif %}
+
     {{ section.content | safe }}
 
     <p class="quick-links">
@@ -49,7 +53,7 @@
 
     <hr>
     <h1>Recent posts:</h1>
-    {{ post_macros::list_posts(pages=show_pages, extra=config.extra) }}
+    {{<list_posts pages={show_pages} extra={config.extra} />}}
 </main>
 
 {% endblock main_content %}

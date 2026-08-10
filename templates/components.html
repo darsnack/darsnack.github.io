@@ -1,0 +1,24 @@
+{% component note(title, content) %}
+<div class="note">
+    <div class="note_title">
+        {{ title | markdown | safe }}
+    </div>
+    <div class="note_content">
+        {{ content | markdown | safe }}
+    </div>
+</div>
+{% endcomponent %}
+
+{% component quicklinks(content) %}
+<div class="center">
+    {{ content | markdown(inline=true) | safe }}
+    <p></p>
+</div>
+{% endcomponent %}
+
+{% component figure(src, alt="", caption="") %}
+<figure>
+    <img src="{{ src }}" alt="{{ alt | safe }}" />
+    <figcaption>{{- caption | markdown | safe -}}</figcaption>
+</figure>
+{% endcomponent %}
