@@ -5,7 +5,6 @@ base_url = "https://www.darsnack.info"
 compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
-theme = "archie-zola"
 
 [markdown.highlighting]
 style = "class"
