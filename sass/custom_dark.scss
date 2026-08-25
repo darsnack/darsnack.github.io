@@ -1,7 +1,19 @@
+strong {
+    font-weight: 550;
+}
+
 p:not(.quick-links):not(.contact-info) > a, li > a {
-    text-decoration-color: mediumseagreen;
+    text-decoration-color: rgb(99, 138, 99);
 }
 
 .giallo-ln {
     border-right: 1px solid #DEDCD550;
+}
+
+.note {
+    border-color: rgb(99, 138, 99);
+}
+
+.note .note_title {
+    background: rgba(99, 138, 99, 0.7);
 }

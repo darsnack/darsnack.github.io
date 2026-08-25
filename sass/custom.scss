@@ -1,37 +1,12 @@
 :root {
-    --maincolor: green;
-    --hovercolor: green;
-    --bordercl: gray;
-    --darkMaincolor: mediumseagreen;
+    --maincolor: rgb(40, 128, 40);
+    --hovercolor: rgb(40, 128, 40);
+    --bordercl: rgb(128, 128, 128);
+    --darkMaincolor: rgb(99, 138, 99);
+    --darkWhitecolor: rgb(255, 245, 229);
+    --darkBackground: #202124;
 }
 
-@font-face {
-    font-family: "Clauthbound";
-    src: url("/fonts/Clauthbound-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Clauthbound";
-    src: url("/fonts/Clauthbound-Semibold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Clauthbound";
-    src: url("/fonts/Clauthbound-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-// @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
-/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Recursive:MONO@1&display=swap");
 
 @import url("giallo-dark.css") (prefers-color-scheme: dark);
@@ -42,20 +17,16 @@ html {
     font-size: 16px;
 }
 
-/* strong {
-    font-weight: 500;
-} */
+strong {
+    font-family: "Fraunces";
+    font-weight: 400;
+    font-variation-settings:
+        "SOFT" 80;
+}
 
 p {
-    /* font-family: "EB Garamond"; */
-    /* font-family: "Fraunces"; */
     font-family: "Sorts Mill Goudy";
-    /* font-weight: 425; */
-    /* font-weight: 350; */
-    font-weight: 550;
-    /* font-size: 20px; */
     font-size: 18px;
-    /* line-height: 25px; */
     line-height: 22.5px;
     text-align: justify;
 }
@@ -104,7 +75,6 @@ span {
 }
 
 .description {
-    /* font-family: "EB Garamond"; */
     font-family: "Sorts Mill Goudy";
 }
 
@@ -123,16 +93,11 @@ h6 {
   font-weight: 600;
   font-size: 1rem;
   margin-top: 0em;
-  /* font-weight: 500; */
 }
 
 h1 {
     font-size: 1.2rem;
 }
-
-/* h2 {
-    font-size: 1.1rem;
-} */
 
 h1::before,
 h2::before,
@@ -144,13 +109,8 @@ h6::before {
 }
 
 li {
-    /* font-family: "EB Garamond"; */
     font-family: "Sorts Mill Goudy";
-    /* font-weight: 425; */
-    font-weight: 550;
-    /* font-size: 20px; */
     font-size: 18px;
-    /* line-height: 25px; */
     line-height: 22.5px;
 }
 
@@ -190,7 +150,7 @@ header {
 #main_title {
     font-size: 1.5rem;
     font-family: "Clauthbound", -apple-system, "Helvetica Neue", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #main_subtitle {
@@ -225,7 +185,6 @@ header nav {
     text-align: right;
     align-self: start;
     margin-top: 10px;
-    /* font-size: 1.2rem; */
 }
 
 header nav a {
@@ -239,14 +198,9 @@ article .title {
 
 .note {
     margin-top: 1.5em;
-    /* width: 95%; */
     margin-left: auto;
     margin-right: auto;
-    /* background-color: aliceblue; */
-    /* border-radius: 5px; */
-    /* border-top-style: solid; */
     border-left-style: solid;
-    /* border-color: cornflowerblue; */
     border-color: var(--maincolor);
     margin-bottom: 1em;
 }
@@ -258,6 +212,7 @@ article .title {
 
 .note_title p {
     font-family: "Clauthbound", -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 .note .note_content {
@@ -267,7 +222,6 @@ article .title {
 
 .note .note_title {
     padding-left: 7px;
-    /* color: white; */
     background: rgba(green, 0.2);
 }
 
@@ -312,7 +266,6 @@ figure img {
 }
 
 figcaption {
-    /* font-family: "EB Garamond"; */
     font-family: "Sorts Milll Goudy";
     font-size: 0.8em;
     color: #888;

@@ -1,17 +1,18 @@
 body {
-    color: white;
-    background-color: #202124;
+    color: var(--darkWhitecolor);
+    /*background-color: #202124;*/
+    background-color: var(--darkBackground);
 }
 
 ::-moz-selection {
     background: blue;
-    color: #fff;
+    color: var(--darkWhitecolor);
     text-shadow: none;
 }
 
 ::selection {
     background: red;
-    color: #fff;
+    color: var(--darkWhitecolor);
     text-shadow: none;
 }
 
@@ -43,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #ddd;
+    color: var(--darkWhitecolor);
 }
 
 h1::before {
@@ -87,7 +88,7 @@ a:hover {
 }
 
 .site-description a {
-    color: #ddd;
+    color: var(--darkWhitecolor);
 }
 
 .site-description a:hover {
