@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><title>Kyle Daruwalla</title><link rel="self" type="application/atom+xml" href="https://www.darsnack.info/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <id>https://www.darsnack.info/atom.xml</id><updated>2025-05-29T00:00:00+00:00</updated><entry xml:lang="en">
+        <title>New preprint: Walking the Weight Manifold!</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/manifold-preprint/"/>
+        <id>https://www.darsnack.info/posts/manifold-preprint/</id><updated>2025-05-29T00:00:00+00:00</updated><published>2025-05-29T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/manifold-preprint/">
+            &lt;p&gt;A lot of my work at CSHL involve thinking how to embed structure into neural networks in a principled and controllable manner. This work does just that, taking inspiration from neuromodulation! We built not a single neural network, but a topologically contrained ensemble that learns concurrently. Check it out on &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2505.22994&quot;&gt;arXiv&lt;/a&gt;!&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>New paper accepted at NeurIPS 2024!</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/nte-neurips/"/>
+        <id>https://www.darsnack.info/posts/nte-neurips/</id><updated>2024-11-06T00:00:00+00:00</updated><published>2024-11-06T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/nte-neurips/">
+            &lt;p&gt;Our work on the Neural Tangent Ensemble is accepted as a spotlight at NeurIPS 2024! Bayesian ensembles are great for many applications such as continual learning, but it is computationally intensive to have an ensemble of large neural networks. In this work, we use neural tangent kernel (NTK) theory to show that a single network can be thought of as an ensemble of functions. We call this the Neural Tangent Ensemble (NTE) and derive a belief update rule for weighting members of the ensemble. Turns out this rule is closely related to (single sample) SGD! Our work focuses on continual learning as an example application, but the NTE is applicable anywhere you would use a Bayesian ensemble. Read the paper &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/pdf?id=qOSFiJdVkZ&quot;&gt;here&lt;/a&gt;, visit us at NeurIPS, or contact us if you have any questions about the NTE!&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>New paper accepted at UniReps NeurIPS Workshop!</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/grokking-unireps/"/>
+        <id>https://www.darsnack.info/posts/grokking-unireps/</id><updated>2024-10-10T00:00:00+00:00</updated><published>2024-10-10T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/grokking-unireps/">
+            &lt;p&gt;After working on representational geomtery at a summer workshop, CiCi approached us about collaborating on a paper exploring changes in representational geometry during grokking. Read the paper &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/pdf?id=1ae108kHk2&quot;&gt;here&lt;/a&gt; or join us for the discussion at UniReps in Vancouver!&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>New preprint: Cheese 3D!</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/cheese3d-preprint/"/>
+        <id>https://www.darsnack.info/posts/cheese3d-preprint/</id><updated>2024-05-01T00:00:00+00:00</updated><published>2024-05-01T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/cheese3d-preprint/">
+            &lt;p&gt;I&apos;m excited to share the first bit of work from my time at Cold Spring Harbor Laboratory. In an effort to learn neuroscience through osmosis, I&apos;ve been collaborating with the &lt;a rel=&quot;external&quot; href=&quot;https://www.houlab.org&quot;&gt;Hou Lab&lt;/a&gt; to study facial movements in mice. In comparison to other behaviors, facial movements cover a wide spatial and temporal dynamic range, and in this work, we carefully developed a 3D pose estimation pipeline that is accurate and robust across these spatiotemporal scales. Read the preprint &lt;a rel=&quot;external&quot; href=&quot;https://www.biorxiv.org/content/10.1101/2024.05.07.593051v1.full.pdf&quot;&gt;here&lt;/a&gt;, and contact us if you&apos;re interested in using our method!&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>Completed my PhD!</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/graduated/"/>
+        <id>https://www.darsnack.info/posts/graduated/</id><updated>2022-06-19T00:00:00+00:00</updated><published>2022-06-19T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/graduated/">
+            &lt;p&gt;I defended my thesis on &lt;em&gt;Building Energy Efficient Computers with Brain-Inspired Computing Models&lt;/em&gt; (I plan to upload a &quot;pretty&quot; copy of the PDF soon). After a long break from research, I&apos;ll be starting as a NeuroAI Scholar at Cold Spring Harbor Lab in August! I&apos;m very excited to be working in a collaborative environment with &lt;em&gt;real neuroscientists&lt;/em&gt;. Please contact me if you think we can have an interesting collaboration!&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>Invited talk at Cold Spring Harbor Labs</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/cshl-seminar/"/>
+        <id>https://www.darsnack.info/posts/cshl-seminar/</id><updated>2022-02-09T00:00:00+00:00</updated><published>2022-02-09T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/cshl-seminar/">
+            &lt;p&gt;I gave an invited talk on my research on building energy efficient computers at Cold Spring Harbor Labs (CSHL). This was a fun opportunity, and I greatly enjoyed the feedback and discussion. You can find my talk slides &lt;a href=&quot;/publications/CSHL-NeuroAI-Seminar-Slides.pdf&quot;&gt;here&lt;/a&gt; (note that the future work sections have been removed since they include ongoing proposals).&lt;/p&gt;
+
+        </content>
+    </entry><entry xml:lang="en">
+        <title>Poster at SNUFA &apos;21</title>
+        <link rel="alternate" type="text/html" href="https://www.darsnack.info/posts/snufa-2021/"/>
+        <id>https://www.darsnack.info/posts/snufa-2021/</id><updated>2021-11-26T00:00:00+00:00</updated><published>2021-11-26T00:00:00+00:00</published><content type="html" xml:base="https://www.darsnack.info/posts/snufa-2021/">
+            &lt;p&gt;I presented &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2111.13187&quot;&gt;my work&lt;/a&gt; on a biologically plausible learning rule as a &lt;a href=&quot;/publications/SNUFA21-Poster.pdf&quot;&gt;poster&lt;/a&gt; at the &lt;a rel=&quot;external&quot; href=&quot;http://snufa.net&quot;&gt;Spiking Neural networks as Universal Function Approximators (SNUFA &apos;21)&lt;/a&gt;. There were many great talks and posters presented, but I was most excited by the presentations on spiking neural networks (SNNs) being applied to solve real problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the European Space Agency is looking at SNNs to solve graph problems (first time I&apos;ve seen a graph neural network (GNN) equivalent for spikes!)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2109.13751&quot;&gt;StereoSpike&lt;/a&gt; uses two event-based cameras with a U-Net architecture to perceive depth. This work was especially cool for me, because I briefly looked at stereoscopic perception using conventional computer vision algorithms at the start of my Ph.D. We were trying to build a bitstream computing circuit as a stepping stone to SNNs, so it&apos;s cool to see someone find a solution to the problem years later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;our-work&quot;&gt;Our work&lt;/h1&gt;
+&lt;p&gt;I presented our work on learning in biological networks by optimizing the information bottleneck. The success of deep learning has emphasized the importance of depth when training networks to solve complex problems. Depth isn&apos;t an issue for artificial neural networks (ANNs), because back-propagation provides a systematic way to assigning credit regardless of depth. Currently, there is not an accepted, biologically plausible back-propagation equivalent for SNNs, though we can use &lt;a rel=&quot;external&quot; href=&quot;https://ieeexplore.ieee.org/document/8891809&quot;&gt;surrogate gradients&lt;/a&gt; when the plausibility constraint is removed.&lt;/p&gt;
+&lt;p&gt;Our work took inspiration from &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/1908.01580&quot;&gt;HSIC training&lt;/a&gt; for ANNs. Instead of computing a loss at the very end of the network, then propagating the loss backwards, HSIC training optimizes each layer independently. Every layer is updated to minimize&lt;/p&gt;
+&lt;p&gt;$$ cal(L)_&quot;HSIC&quot; = upright(HSIC)(vecb(z)^ell, vecb(x)) - gamma upright(HSIC)(vecb(z)^ell, vecb(y)) $$&lt;/p&gt;
+&lt;p&gt;where $vecb(z)^ell$ is the output of the layer $ell$, and $vecb(x)$/$vecb(y)$ are the input/output of the entire network, respectively. We show the gradient descent update for this objective can be decomposed into two components—a local Hebbian component and a layer-wise global modulatory signal.&lt;/p&gt;
+&lt;p&gt;One challenge to applying this rule for SNNs directly is that the HSIC is computed over a batch of samples, but biological networks see samples sequentially, one-at-a-time. To overcome this, we encode a batch as a window of samples over time (i.e. a batch size of $N$ corresponds to the last $N$ samples presented to the network). We show that the local component depends only on the current sample, and the global component depends on the prior samples. Then, we propose using an auxiliary reservoir network to compute the global component as shown below.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;hsic-rule.png&quot; alt=&quot;A diagram of our learning rule showing three-factors: a Hebbian component and a global third factor given by an auxiliary reservoir&quot; /&gt;
+    &lt;figcaption&gt;&lt;p&gt;Our learning rule is a &lt;a rel=&quot;external&quot; href=&quot;http://journal.frontiersin.org/Article/10.3389/fncir.2015.00085/abstract&quot;&gt;three-factor Hebbian rule&lt;/a&gt;. It contains a local component that depends on the current sample, and a global component that depends on past samples. A reservoir is used to compute the global component.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Note that the reservoir can be trained a priori using random data, and it does not need to be trained during the main learning task (though it can be). Check out our &lt;a href=&quot;/publications/SNUFA21-Poster.pdf&quot;&gt;poster&lt;/a&gt; or &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2111.13187&quot;&gt;preprint&lt;/a&gt; for more details!&lt;/p&gt;
+
+        </content>
+    </entry></feed>
