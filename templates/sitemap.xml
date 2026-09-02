@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- set posts_section = get_section(path="posts/_index.md") -%}
+{%- for sitemap_entry in entries -%}
+    {%- set_global is_draft_post = false -%}
+    {%- for page in posts_section.pages -%}
+        {%- if page.draft and sitemap_entry.permalink == page.permalink -%}
+            {%- set_global is_draft_post = true -%}
+        {%- endif -%}
+    {%- endfor -%}
+    {%- if not is_draft_post -%}
+    <url>
+        <loc>{{ sitemap_entry.permalink | escape_xml | safe }}</loc>
+        {%- if sitemap_entry.updated -%}
+        <lastmod>{{ sitemap_entry.updated }}</lastmod>
+        {%- endif -%}
+    </url>
+    {%- endif -%}
+{%- endfor -%}
+</urlset>

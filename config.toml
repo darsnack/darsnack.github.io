@@ -5,6 +5,9 @@ base_url = "https://www.darsnack.info"
 compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+# Generate an Atom feed at /atom.xml
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 [markdown.highlighting]
 style = "class"

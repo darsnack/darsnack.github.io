@@ -7,11 +7,20 @@
     <div class="tag-cloud">
         <ul class="tags">
             {% for term in terms %}
+            {%- set term_post_count = 0 -%}
+            {%- for page in term.pages -%}
+                {%- if not page.draft -%}
+                    {%- set term_post_count = term_post_count + 1 -%}
+                {%- endif -%}
+            {%- endfor -%}
+
+            {%- if term_post_count > 0 -%}
             <li>
                 <a href="{{ term.permalink | safe }}">
-                    {{ term.name }} ({{ term.pages | length }} post{{ term.pages | length | pluralize }})
+                    {{ term.name }} ({{ term_post_count }} post{{ term_post_count | pluralize }})
                 </a>
             </li>
+            {%- endif -%}
             {% endfor %}
         </ul>
     </div>

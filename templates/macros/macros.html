@@ -7,6 +7,10 @@
 
     <ul class="posts">
         {% for page in pages %}
+            {%- if page.draft %}
+                {% continue %}
+            {% endif -%}
+
             <li class="post">
                 <a href="{{ page.permalink }}">{{ page.title }}</a>
                 <span class="meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
@@ -16,13 +20,16 @@
 {% endcomponent list_title %}
 
 {% component list_posts(pages, extra) %}
+    {%- set_global visible_post_count = 0 -%}
     <ul>
     {%- for page in pages %}
         {%- if page.draft %}
             {% continue %}
         {% endif -%}
 
-        {% if extra.max_recent_posts and loop.index > extra.max_recent_posts %}
+        {%- set_global visible_post_count = visible_post_count + 1 -%}
+
+        {% if extra.max_recent_posts and visible_post_count > extra.max_recent_posts %}
             {% break %}
         {% endif %}
 
