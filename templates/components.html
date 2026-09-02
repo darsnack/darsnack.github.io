@@ -22,3 +22,7 @@
     <figcaption>{{- caption | markdown | safe -}}</figcaption>
 </figure>
 {% endcomponent %}
+
+{% component marginnote(id) %}
+<input id="margin-note-{{ id }}" class="margin-note-checkbox" type="checkbox" aria-label="Toggle margin note"><label for="margin-note-{{ id }}" class="margin-note-toggle"><sup class="margin-note-reference"></sup></label><span class="margin-note" role="note">{{- body | markdown(inline=true) | safe -}}</span>
+{% endcomponent %}

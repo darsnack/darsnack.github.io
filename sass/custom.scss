@@ -17,6 +17,15 @@ html {
     font-size: 16px;
 }
 
+@media screen and (width >= 900px) {
+    .content {
+        margin-left: 25px;
+        // Leave a rail to the right of the article for margin notes.
+        max-width: min(800px, calc(100vw - 25px - 20rem));
+        margin-right: 0;
+    }
+}
+
 strong {
     font-family: "Fraunces";
     font-weight: 400;
@@ -112,6 +121,10 @@ li {
     font-family: "Sorts Mill Goudy";
     font-size: 18px;
     line-height: 22.5px;
+}
+
+ul > li::before {
+  content: "꘎ ";
 }
 
 .list-item {
@@ -271,4 +284,102 @@ figcaption {
     color: #888;
     margin-top: 0.5em;
     font-style: italic;
+}
+
+// Margin notes are numbered in document order. Keeping the reference and note
+// as separate siblings lets the reference remain in the sentence while the
+// note itself moves into the right-hand rail.
+.body {
+    counter-reset: margin-note;
+}
+
+.margin-note-reference {
+    color: var(--maincolor);
+    counter-increment: margin-note;
+    display: inline-block;
+    font-family: "Goudy Bookletter", -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 0.75rem;
+    line-height: 0;
+    position: relative;
+    top: -0.6em;
+    vertical-align: baseline;
+}
+
+.margin-note-reference::after,
+.margin-note::before {
+    content: counter(margin-note);
+}
+
+.margin-note-reference::after {
+    color: var(--maincolor);
+    font-family: "Goudy Bookletter", -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 0.75rem;
+    margin-left: -5px;
+    // font-weight: 600;
+}
+
+.margin-note {
+    box-sizing: border-box;
+    color: gray;
+    font-family: "Sorts Mill Goudy";
+    font-size: 0.75rem;
+    line-height: 1.25;
+}
+
+.margin-note::before {
+    color: var(--maincolor);
+    font-family: "Goudy Bookletter", -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 0.75rem;
+    // font-weight: 600;
+    margin-right: 0.4em;
+    vertical-align: super;
+}
+
+@media screen and (width >= 900px) {
+    .margin-note-checkbox {
+        display: none;
+    }
+
+    .margin-note-toggle {
+        pointer-events: none;
+    }
+
+    .margin-note {
+        clear: right;
+        float: right;
+        margin: 0 -19rem 1rem 1rem;
+        width: 17rem;
+    }
+
+}
+
+@media screen and (width < 900px) {
+    .margin-note-checkbox {
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .margin-note-toggle {
+        cursor: pointer;
+    }
+
+    .margin-note-checkbox:focus-visible + .margin-note-toggle {
+        outline: 2px solid var(--maincolor);
+        outline-offset: 2px;
+    }
+
+    .margin-note {
+        display: none;
+        font-size: 0.85rem;
+        margin: 0.75rem 0 1rem 1.5rem;
+    }
+
+    .margin-note-checkbox:checked ~ .margin-note {
+        display: block;
+    }
 }
