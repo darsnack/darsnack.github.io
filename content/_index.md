@@ -1,15 +1,14 @@
 +++
 paginate_by = 0
 sort_by = "date"
-
-[extra.welcome_notice]
-title = "⚠️ Looking for industry research scientist/engineer roles!"
-content = """I have 8+ years of experience in AI/ML focusing on efficiency across the compute stack: (1) low-power hardware/compilers for ML applications, (2) bio-inspired algorithms for data & compute efficiency, and (3) frontier models for multi-modal biological datasets. I also have extensive open-source software experience and leadership across multiple research teams.
-
-Please reach out if I could be a good fit for your team!"""
+# [extra.welcome_notice]
+# title = "⚠️ Looking for industry research scientist/engineer roles!"
+# content = """I have 8+ years of experience in AI/ML focusing on efficiency across the compute stack: (1) low-power hardware/compilers for ML applications, (2) bio-inspired algorithms for data & compute efficiency, and (3) frontier models for multi-modal biological datasets. I also have extensive open-source software experience and leadership across multiple research teams.
+# 
+# Please reach out if I could be a good fit for your team!"""
 +++
 
-Welcome! I'm Kyle, a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into two areas:
+Welcome! I'm Kyle, a researcher at Fauna Robotics. Previously, I was a NeuroAI Scholar at Cold Spring Harbor Lab in Long Island, NY. I completed my PhD studying non-von Neumman computing under Dr. Mikko Lipasti at University of Wisconsin-Madison. My research is broadly organized into two areas:
 
 **Applying ML models to neuroscience datasets:**
 <img src="/cheese-3d.gif" style="width:150px; margin-left: 2%; border-radius: 5px; float:right">

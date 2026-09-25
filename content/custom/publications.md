@@ -8,6 +8,9 @@ template = "generic-page.html"
 
 # Preprint Publications
 
+X. Dai, Q. Jin, T. Tan, B. Chen, H. Lyu, L. Aharon, **K. Daruwalla**, X. H. Hou, M. R. Whiteway, L. Paninski, Y. Zhang, *Sparse-View Interpretable 3D Animal Behavior Representations for Neural Encoding and Decoding*, preprint, September, 2026.
+[ [pdf](https://arxiv.org/pdf/2609.36217) ]
+
 A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. Zekri, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 

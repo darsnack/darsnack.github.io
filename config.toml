@@ -44,6 +44,10 @@ target = "bold(#1)"
 name = "CV"
 url = "/cv.pdf"
 
+[[extra.quick_link]]
+name = "Scholar"
+url = "https://scholar.google.com/citations?user=d4UlFQ0AAAAJ&hl=en"
+
 # [[extra.quick_link]]
 # name = "Research Statement"
 # url = "/research-statement.pdf"
