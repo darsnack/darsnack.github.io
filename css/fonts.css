@@ -1,0 +1,87 @@
+/* fira-sans-regular - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+       url('../fonts/fira-sans-v10-latin-regular.woff2') format('woff2');
+}
+/* roboto-mono-regular - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-mono-v12-latin-regular.woff2') format('woff2');
+}
+/* ibm-plex-mono-500italic - latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: italic;
+  font-weight: 500;
+  src: local('IBM Plex Mono Medium Italic'), local('IBMPlexMono-MediumItalic'),
+       url('../fonts/ibm-plex-mono-v6-latin-500italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Clauthbound";
+    src: url("/fonts/Clauthbound-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Clauthbound";
+    src: url("/fonts/Clauthbound-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Clauthbound";
+    src: url("/fonts/Clauthbound-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sorts Mill Goudy";
+    src: url("/fonts/GoudyStM-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sorts Mill Goudy";
+    src: url("/fonts/GoudyStM-Italic-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Goudy Bookletter";
+    src: url("/fonts/goudy_bookletter_1911-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("/fonts/Fraunces--latin_basic.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("/fonts/Fraunces-Italic--latin_basic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+}
