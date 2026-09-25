@@ -8,9 +8,6 @@ template = "generic-page.html"
 
 # Preprint Publications
 
-Y. Wang, L. Aharon, W. Zhu, **K. Daruwalla**, L. Zhang, J. Zou, S. Chettih, H. Hou, L. Paninski, M. R. Whiteway, *BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting*, preprint, June, 2026.
-[ [pdf](https://arxiv.org/pdf/2606.02937) ]
-
 A. S. Benjamin\*, **K. Daruwalla\***, C. Pehle\*, A. Zekri, A. M. Zador, *Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation*, preprint, May, 2025.
 [ [pdf](https://arxiv.org/pdf/2505.22994) ]
 
@@ -18,6 +15,12 @@ R. S. Raju, **K. Daruwalla**, M. Lipasti, *Accelerating Deep Learning with Dynam
 [ [pdf](https://arxiv.org/pdf/2111.12621) ]
 
 # Conference Publications
+
+R. Fayyazi\*, **K. Daruwalla\***, M. Javadzadeh, *A Control-Theoretic Approximation to Predictive Coding Dynamics*, NeurIPS, December, 2026.
+
+_Oral 🥇_ \
+Y. Wang, L. Aharon, W. Zhu, **K. Daruwalla**, L. Zhang, J. Zou, S. Chettih, H. Hou, L. Paninski, M. R. Whiteway, *BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting*, NeurIPS, December, 2026.
+[ [preprint](https://arxiv.org/pdf/2606.02937) ]
 
 _Spotlight paper 🔦_ \
 A. S. Benjamin, C. Pehle, **K. Daruwalla**, *Continual learning with the neural tangent ensemble*, NeurIPS, December, 2024.
