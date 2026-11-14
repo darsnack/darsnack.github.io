@@ -50,6 +50,9 @@ S. Khoram, **K. Daruwalla**, M. Lipasti, *Energy-Efficient Bayesian Inference Us
 
 # Workshop Publications
 
+L. Aharon, **K. Daruwalla**, X. H. Hou, M. Kondo, M. Matsuzaki, K. Sehara, F. Cazettes, A. Aurelien, IBL, L. Paninski, M. R. Whiteway, *Mighty Mouse: A Pose Foundation Model That Remembers What You Never Labeled*, NeurIPS 2026 Workshop on Foundation Models for the Brain and Body.
+[ [pdf](https://openreview.net/forum?id=pQLQ1jYdl4) ]
+
 X. Zheng, **K. Daruwalla**, A. S. Benjamin, D. Klindt, *Delays in generalization match delayed changes in representational geometry*, UniReps: 2nd Edition of the Workshop on Unifying Representations in Neural Models, December 2024.
 [ [pdf](https://openreview.net/pdf?id=1ae108kHk2) ]
 
